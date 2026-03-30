@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "youtube_search_focus",
+  "version": "1.0",
+  "description": "Press / to focus YouTube search bar",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
